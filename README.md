@@ -1,3 +1,3 @@
-# javascript-mastery-1400
+<!-- # javascript-mastery-10000
 
-Achieve JavaScript mastery with 1400+ interactive challenges, runnable examples, unit tests, and AI-powered explanations.
+# **Note:** This mega project is not completed. This project will be completed later. -->
