@@ -259,6 +259,6 @@ It’s designed to be **clean, well-structured**, and **pleasant to explore** - 
 
 ---
 
-<p align="center">Made with ❤️ and ☕ by **<Md Abu Kayser>**</p>
+<p align="center">Made with ❤️ and ☕ by Md Abu Kayser</p>
 
 ---
