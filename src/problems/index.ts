@@ -5,9 +5,9 @@ import { problems as beginnerBasicsProblems } from "./beginner-basics/problems";
 import { solvers as beginnerBasicsSolvers } from "./beginner-basics/solvers";
 import { explanations as beginnerBasicsExplanations } from "./beginner-basics/explanations";
 
-// import { problems as variablesConstantsDeepDiveProblems } from "./variables-and-constants-deep-dive/problems";
-// import { solvers as variablesConstantsDeepDiveSolvers } from "./variables-and-constants-deep-dive/solvers";
-// import { explanations as variablesConstantsDeepDiveExplanations } from "./variables-and-constants-deep-dive/explanations";
+import { problems as variablesConstantsDeepDiveProblems } from "./variables-and-constants-deep-dive/problems";
+import { solvers as variablesConstantsDeepDiveSolvers } from "./variables-and-constants-deep-dive/solvers";
+import { explanations as variablesConstantsDeepDiveExplanations } from "./variables-and-constants-deep-dive/explanations";
 
 import { problems as operatorsExpressionsProblems } from "./operators-and-expressions/problems";
 import { solvers as operatorsExpressionsSolvers } from "./operators-and-expressions/solvers";
@@ -81,7 +81,7 @@ import { explanations as closuresLexicalEnvironmentExplanations } from "./closur
 export const allProblems: Problem[] = [
   // export allProblems--> Fundamentals(12)
   ...beginnerBasicsProblems,
-  // ...variablesConstantsDeepDiveProblems,
+  ...variablesConstantsDeepDiveProblems,
   ...operatorsExpressionsProblems,
   ...controlFlowLoopsProblems,
   ...functionsScopeProblems,
@@ -105,7 +105,7 @@ export const allProblems: Problem[] = [
 export const allSolvers: Record<string, Function> = {
   // export allSolvers--> Fundamentals(12)
   ...beginnerBasicsSolvers,
-  // ...variablesConstantsDeepDiveSolvers,
+  ...variablesConstantsDeepDiveSolvers,
   ...operatorsExpressionsSolvers,
   ...functionsScopeSolvers,
   ...arraysStringsSolvers,
@@ -129,7 +129,7 @@ export const allSolvers: Record<string, Function> = {
 export const staticExplanations: Record<string, string> = {
   // export allExplanations--> Fundamentals(12)
   ...beginnerBasicsExplanations,
-  // ...variablesConstantsDeepDiveExplanations,
+  ...variablesConstantsDeepDiveExplanations,
   ...operatorsExpressionsExplanations,
   ...functionsScopeExplanations,
   ...arraysStringsExplanations,
