@@ -1,6 +1,35 @@
 # Advanced JavaScript Problem Solver - 2,825+ Interactive Challenges & AI Explanations
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](#license) [![React](https://img.shields.io/badge/react-19.1.1-blue)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/vite-%5E6.2.0-yellow)](https://vitejs.dev/) [![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%5E3.4.14-teal)](https://tailwindcss.com/) [![Google GenAI](https://img.shields.io/badge/google--genai-%5E1.19.0-orange)](https://developers.google.com/)
+<!-- MIT License -->
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](#license)
+
+<!-- Developers Google AI -->
+
+[![Google GenAI](https://img.shields.io/badge/google--genai-%5E1.19.0-orange)](https://developers.google.com/)
+
+<!-- HTML & CSS -->
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<!-- Styling / PostCSS -->
+
+[![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%5E3.4.14-teal)](https://tailwindcss.com/)
+[![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss\&logoColor=black)](https://postcss.org/)
+[![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss\&logoColor=white)](https://daisyui.com/)
+
+<!-- Languages & Web Standards -->
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript\&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript\&logoColor=white)](https://www.typescriptlang.org/docs/)
+
+
+[![React](https://img.shields.io/badge/react-19.1.1-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/vite-%5E6.2.0-yellow)](https://vitejs.dev/)
+
+
 
 > **Interactive learning platform that helps developers master JavaScript through curated problems, step-by-step explanations, and AI-powered assistance.**
 
