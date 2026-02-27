@@ -70,9 +70,9 @@ import { explanations as closuresLexicalEnvironmentExplanations } from "./closur
 // import { solvers as advancedJsFeaturesSolvers } from "./advanced-js-features/solvers";
 // import { explanations as advancedJsFeaturesExplanations } from "./advanced-js-features/explanations";
 
-// import { problems as miniProjectsProblems } from "./mini-projects/problems";
-// import { solvers as miniProjectsSolvers } from "./mini-projects/solvers";
-// import { explanations as miniProjectsExplanations } from "./mini-projects/explanations";
+import { problems as miniProjectsProblems } from "./mini-projects/problems";
+import { solvers as miniProjectsSolvers } from "./mini-projects/solvers";
+import { explanations as miniProjectsExplanations } from "./mini-projects/explanations";
 
 // import { problems as modulesImportsExportsProblems } from "./modules-and-imports-exports/problems";
 // import { solvers as modulesImportsExportsSolvers } from "./modules-and-imports-exports/solvers";
@@ -98,7 +98,7 @@ export const allProblems: Problem[] = [
   // ...recursionTechniquesProblems,
   // ...classesOopProblems,
   // ...advancedJsFeaturesProblems,
-  // ...miniProjectsProblems,
+  ...miniProjectsProblems,
   // ...modulesImportsExportsProblems,
 ];
 
@@ -121,7 +121,7 @@ export const allSolvers: Record<string, Function> = {
   // ...recursionTechniquesSolvers,
   // ...classesOopSolvers,
   // ...advancedJsFeaturesSolvers,
-  // ...miniProjectsSolvers,
+  ...miniProjectsSolvers,
   // ...modulesImportsExportsSolvers,
   ...controlFlowLoopsSolvers,
 };
@@ -145,7 +145,7 @@ export const staticExplanations: Record<string, string> = {
   // ...recursionTechniquesExplanations,
   // ...classesOopExplanations,
   // ...advancedJsFeaturesExplanations,
-  // ...miniProjectsExplanations,
+  ...miniProjectsExplanations,
   // ...modulesImportsExportsExplanations,
   ...controlFlowLoopsExplanations,
 };
