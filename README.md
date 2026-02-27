@@ -1,4 +1,4 @@
-# Advanced JavaScript Problem Solver 🚀
+# Advanced JavaScript Problem Solver - 2,825+ Interactive Challenges & AI Explanations
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#license) [![React](https://img.shields.io/badge/react-19.1.1-blue)](https://reactjs.org/) [![Vite](https://img.shields.io/badge/vite-%5E6.2.0-yellow)](https://vitejs.dev/) [![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%5E3.4.14-teal)](https://tailwindcss.com/) [![Google GenAI](https://img.shields.io/badge/google--genai-%5E1.19.0-orange)](https://developers.google.com/)
 
