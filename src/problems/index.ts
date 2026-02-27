@@ -5,13 +5,13 @@ import { problems as beginnerBasicsProblems } from "./beginner-basics/problems";
 import { solvers as beginnerBasicsSolvers } from "./beginner-basics/solvers";
 import { explanations as beginnerBasicsExplanations } from "./beginner-basics/explanations";
 
-import { problems as variablesConstantsDeepDiveProblems } from "./variables-and-constants-deep-dive/problems";
-import { solvers as variablesConstantsDeepDiveSolvers } from "./variables-and-constants-deep-dive/solvers";
-import { explanations as variablesConstantsDeepDiveExplanations } from "./variables-and-constants-deep-dive/explanations";
+// import { problems as variablesConstantsDeepDiveProblems } from "./variables-and-constants-deep-dive/problems";
+// import { solvers as variablesConstantsDeepDiveSolvers } from "./variables-and-constants-deep-dive/solvers";
+// import { explanations as variablesConstantsDeepDiveExplanations } from "./variables-and-constants-deep-dive/explanations";
 
-import { problems as operatorsExpressionsProblems } from "./operators-and-expressions/problems";
-import { solvers as operatorsExpressionsSolvers } from "./operators-and-expressions/solvers";
-import { explanations as operatorsExpressionsExplanations } from "./operators-and-expressions/explanations";
+// import { problems as operatorsExpressionsProblems } from "./operators-and-expressions/problems";
+// import { solvers as operatorsExpressionsSolvers } from "./operators-and-expressions/solvers";
+// import { explanations as operatorsExpressionsExplanations } from "./operators-and-expressions/explanations";
 
 import { problems as controlFlowLoopsProblems } from "./control-flow-and-loops/problems";
 import { solvers as controlFlowLoopsSolvers } from "./control-flow-and-loops/solvers";
@@ -37,9 +37,9 @@ import { problems as dateTimeHandlingProblems } from "./date-and-time-handling/p
 import { solvers as dateTimeHandlingSolvers } from "./date-and-time-handling/solvers";
 import { explanations as dateTimeHandlingExplanations } from "./date-and-time-handling/explanations";
 
-import { problems as typeValueMasteryProblems } from "./type-and-value-mastery/problems";
-import { solvers as typeValueMasterySolvers } from "./type-and-value-mastery/solvers";
-import { explanations as typeValueMasteryExplanations } from "./type-and-value-mastery/explanations";
+// import { problems as typeValueMasteryProblems } from "./type-and-value-mastery/problems";
+// import { solvers as typeValueMasterySolvers } from "./type-and-value-mastery/solvers";
+// import { explanations as typeValueMasteryExplanations } from "./type-and-value-mastery/explanations";
 
 import { problems as errorHandlingDebuggingProblems } from "./error-handling-and-debugging/problems";
 import { solvers as errorHandlingDebuggingSolvers } from "./error-handling-and-debugging/solvers";
@@ -58,9 +58,9 @@ import { problems as closuresLexicalEnvironmentProblems } from "./closures-and-l
 import { solvers as closuresLexicalEnvironmentSolvers } from "./closures-and-lexical-environment/solvers";
 import { explanations as closuresLexicalEnvironmentExplanations } from "./closures-and-lexical-environment/explanations";
 
-import { problems as recursionTechniquesProblems } from "./recursion-techniques/problems";
-import { solvers as recursionTechniquesSolvers } from "./recursion-techniques/solvers";
-import { explanations as recursionTechniquesExplanations } from "./recursion-techniques/explanations";
+// import { problems as recursionTechniquesProblems } from "./recursion-techniques/problems";
+// import { solvers as recursionTechniquesSolvers } from "./recursion-techniques/solvers";
+// import { explanations as recursionTechniquesExplanations } from "./recursion-techniques/explanations";
 
 // import { problems as classesOopProblems } from "./classes-and-oop/problems";
 // import { solvers as classesOopSolvers } from "./classes-and-oop/solvers";
@@ -70,82 +70,82 @@ import { explanations as recursionTechniquesExplanations } from "./recursion-tec
 // import { solvers as advancedJsFeaturesSolvers } from "./advanced-js-features/solvers";
 // import { explanations as advancedJsFeaturesExplanations } from "./advanced-js-features/explanations";
 
-import { problems as miniProjectsProblems } from "./mini-projects/problems";
-import { solvers as miniProjectsSolvers } from "./mini-projects/solvers";
-import { explanations as miniProjectsExplanations } from "./mini-projects/explanations";
+// import { problems as miniProjectsProblems } from "./mini-projects/problems";
+// import { solvers as miniProjectsSolvers } from "./mini-projects/solvers";
+// import { explanations as miniProjectsExplanations } from "./mini-projects/explanations";
 
-import { problems as modulesImportsExportsProblems } from "./modules-and-imports-exports/problems";
-import { solvers as modulesImportsExportsSolvers } from "./modules-and-imports-exports/solvers";
-import { explanations as modulesImportsExportsExplanations } from "./modules-and-imports-exports/explanations";
+// import { problems as modulesImportsExportsProblems } from "./modules-and-imports-exports/problems";
+// import { solvers as modulesImportsExportsSolvers } from "./modules-and-imports-exports/solvers";
+// import { explanations as modulesImportsExportsExplanations } from "./modules-and-imports-exports/explanations";
 
 export const allProblems: Problem[] = [
   // export allProblems--> Fundamentals(12)
   ...beginnerBasicsProblems,
-  ...variablesConstantsDeepDiveProblems,
-  ...operatorsExpressionsProblems,
+  // ...variablesConstantsDeepDiveProblems,
+  // ...operatorsExpressionsProblems,
   ...controlFlowLoopsProblems,
   ...functionsScopeProblems,
   ...arraysStringsProblems,
   ...objectsPrototypesProblems,
   ...mathNumberChallengesProblems,
   ...dateTimeHandlingProblems,
-  ...typeValueMasteryProblems,
+  // ...typeValueMasteryProblems,
   ...errorHandlingDebuggingProblems,
   ...inputOutputConsoleUtilitiesProblems,
   // export allProblems--> Core Concepts(12)
   ...es6FeaturesProblems,
   ...closuresLexicalEnvironmentProblems,
-  ...recursionTechniquesProblems,
+  // ...recursionTechniquesProblems,
   // ...classesOopProblems,
   // ...advancedJsFeaturesProblems,
-  ...miniProjectsProblems,
-  ...modulesImportsExportsProblems,
+  // ...miniProjectsProblems,
+  // ...modulesImportsExportsProblems,
 ];
 
 export const allSolvers: Record<string, Function> = {
   // export allSolvers--> Fundamentals(12)
   ...beginnerBasicsSolvers,
-  ...variablesConstantsDeepDiveSolvers,
-  ...operatorsExpressionsSolvers,
+  // ...variablesConstantsDeepDiveSolvers,
+  // ...operatorsExpressionsSolvers,
   ...functionsScopeSolvers,
   ...arraysStringsSolvers,
   ...objectsPrototypesSolvers,
   ...mathNumberChallengesSolvers,
   ...dateTimeHandlingSolvers,
-  ...typeValueMasterySolvers,
+  // ...typeValueMasterySolvers,
   ...errorHandlingDebuggingSolvers,
   ...inputOutputConsoleUtilitiesSolvers,
   // export allSolvers--> Core Concepts(12)
   ...es6FeaturesSolvers,
   ...closuresLexicalEnvironmentSolvers,
-  ...recursionTechniquesSolvers,
+  // ...recursionTechniquesSolvers,
   // ...classesOopSolvers,
   // ...advancedJsFeaturesSolvers,
-  ...miniProjectsSolvers,
-  ...modulesImportsExportsSolvers,
+  // ...miniProjectsSolvers,
+  // ...modulesImportsExportsSolvers,
   ...controlFlowLoopsSolvers,
 };
 
 export const staticExplanations: Record<string, string> = {
   // export allExplanations--> Fundamentals(12)
   ...beginnerBasicsExplanations,
-  ...variablesConstantsDeepDiveExplanations,
-  ...operatorsExpressionsExplanations,
+  // ...variablesConstantsDeepDiveExplanations,
+  // ...operatorsExpressionsExplanations,
   ...functionsScopeExplanations,
   ...arraysStringsExplanations,
   ...objectsPrototypesExplanations,
   ...mathNumberChallengesExplanations,
   ...dateTimeHandlingExplanations,
-  ...typeValueMasteryExplanations,
+  // ...typeValueMasteryExplanations,
   ...errorHandlingDebuggingExplanations,
   ...inputOutputConsoleUtilitiesExplanations,
   // export allExplanations--> Core Concepts(12)
   ...es6FeaturesExplanations,
   ...closuresLexicalEnvironmentExplanations,
-  ...recursionTechniquesExplanations,
+  // ...recursionTechniquesExplanations,
   // ...classesOopExplanations,
   // ...advancedJsFeaturesExplanations,
-  ...miniProjectsExplanations,
-  ...modulesImportsExportsExplanations,
+  // ...miniProjectsExplanations,
+  // ...modulesImportsExportsExplanations,
   ...controlFlowLoopsExplanations,
 };
