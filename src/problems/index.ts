@@ -37,9 +37,9 @@ import { problems as dateTimeHandlingProblems } from "./date-and-time-handling/p
 import { solvers as dateTimeHandlingSolvers } from "./date-and-time-handling/solvers";
 import { explanations as dateTimeHandlingExplanations } from "./date-and-time-handling/explanations";
 
-// import { problems as typeValueMasteryProblems } from "./type-and-value-mastery/problems";
-// import { solvers as typeValueMasterySolvers } from "./type-and-value-mastery/solvers";
-// import { explanations as typeValueMasteryExplanations } from "./type-and-value-mastery/explanations";
+import { problems as typeValueMasteryProblems } from "./type-and-value-mastery/problems";
+import { solvers as typeValueMasterySolvers } from "./type-and-value-mastery/solvers";
+import { explanations as typeValueMasteryExplanations } from "./type-and-value-mastery/explanations";
 
 import { problems as errorHandlingDebuggingProblems } from "./error-handling-and-debugging/problems";
 import { solvers as errorHandlingDebuggingSolvers } from "./error-handling-and-debugging/solvers";
@@ -89,7 +89,7 @@ export const allProblems: Problem[] = [
   ...objectsPrototypesProblems,
   ...mathNumberChallengesProblems,
   ...dateTimeHandlingProblems,
-  // ...typeValueMasteryProblems,
+  ...typeValueMasteryProblems,
   ...errorHandlingDebuggingProblems,
   ...inputOutputConsoleUtilitiesProblems,
   // export allProblems--> Core Concepts(12)
@@ -112,7 +112,7 @@ export const allSolvers: Record<string, Function> = {
   ...objectsPrototypesSolvers,
   ...mathNumberChallengesSolvers,
   ...dateTimeHandlingSolvers,
-  // ...typeValueMasterySolvers,
+  ...typeValueMasterySolvers,
   ...errorHandlingDebuggingSolvers,
   ...inputOutputConsoleUtilitiesSolvers,
   // export allSolvers--> Core Concepts(12)
@@ -136,7 +136,7 @@ export const staticExplanations: Record<string, string> = {
   ...objectsPrototypesExplanations,
   ...mathNumberChallengesExplanations,
   ...dateTimeHandlingExplanations,
-  // ...typeValueMasteryExplanations,
+  ...typeValueMasteryExplanations,
   ...errorHandlingDebuggingExplanations,
   ...inputOutputConsoleUtilitiesExplanations,
   // export allExplanations--> Core Concepts(12)
