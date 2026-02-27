@@ -19,6 +19,12 @@
 [![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss\&logoColor=black)](https://postcss.org/)
 [![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss\&logoColor=white)](https://daisyui.com/)
 
+<!-- Fonts & Icons -->
+
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?logo=google\&logoColor=white)](https://fonts.google.com/)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome\&logoColor=white)](https://fontawesome.com/)
+[![Heroicons](https://img.shields.io/badge/Heroicons-0EA5E9?logo=heroicons\&logoColor=white)](https://heroicons.com/)
+
 <!-- Languages & Web Standards -->
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -40,7 +46,28 @@
 
 [![Vite](https://img.shields.io/badge/vite-%5E6.2.0-yellow)](https://vitejs.dev/)
 
+## Plain docs links
 
+- Google genai docs: https://developers.google.com/
+- HTML (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Tailwind CSS docs: [https://tailwindcss.com/docs/](https://tailwindcss.com/docs/)
+- PostCSS docs / postcss.config: [https://postcss.org/](https://postcss.org/)
+- daisyUI docs: [https://daisyui.com/](https://daisyui.com/)
+- Google Fonts docs: [https://fonts.google.com/](https://fonts.google.com/)
+- Font Awesome docs: [https://fontawesome.com/](https://fontawesome.com/)
+- Heroicons docs: [https://heroicons.com/](https://heroicons.com/)
+- JavaScript (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- ECMAScript (spec, ECMA-262) docs: [https://www.ecma-international.org/publications-and-standards/standards/ecma-262/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- TypeScript docs: [https://www.typescriptlang.org/docs/](https://www.typescriptlang.org/docs/)
+- Node.js docs: [https://nodejs.org/](https://nodejs.org/)
+- Express docs: [https://expressjs.com/](https://expressjs.com/)
+- React docs: https://react.dev/
+- ESLint docs: [https://eslint.org/docs/latest/](https://eslint.org/docs/latest/)
+- Prettier docs: [https://prettier.io/docs/](https://prettier.io/docs/)
+- Vite docs: [https://vite.dev/](https://vite.dev/)
+
+---
 
 > **Interactive learning platform that helps developers master JavaScript through curated problems, step-by-step explanations, and AI-powered assistance.**
 
