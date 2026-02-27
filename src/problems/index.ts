@@ -9,9 +9,9 @@ import { explanations as beginnerBasicsExplanations } from "./beginner-basics/ex
 // import { solvers as variablesConstantsDeepDiveSolvers } from "./variables-and-constants-deep-dive/solvers";
 // import { explanations as variablesConstantsDeepDiveExplanations } from "./variables-and-constants-deep-dive/explanations";
 
-// import { problems as operatorsExpressionsProblems } from "./operators-and-expressions/problems";
-// import { solvers as operatorsExpressionsSolvers } from "./operators-and-expressions/solvers";
-// import { explanations as operatorsExpressionsExplanations } from "./operators-and-expressions/explanations";
+import { problems as operatorsExpressionsProblems } from "./operators-and-expressions/problems";
+import { solvers as operatorsExpressionsSolvers } from "./operators-and-expressions/solvers";
+import { explanations as operatorsExpressionsExplanations } from "./operators-and-expressions/explanations";
 
 import { problems as controlFlowLoopsProblems } from "./control-flow-and-loops/problems";
 import { solvers as controlFlowLoopsSolvers } from "./control-flow-and-loops/solvers";
@@ -82,7 +82,7 @@ export const allProblems: Problem[] = [
   // export allProblems--> Fundamentals(12)
   ...beginnerBasicsProblems,
   // ...variablesConstantsDeepDiveProblems,
-  // ...operatorsExpressionsProblems,
+  ...operatorsExpressionsProblems,
   ...controlFlowLoopsProblems,
   ...functionsScopeProblems,
   ...arraysStringsProblems,
@@ -106,7 +106,7 @@ export const allSolvers: Record<string, Function> = {
   // export allSolvers--> Fundamentals(12)
   ...beginnerBasicsSolvers,
   // ...variablesConstantsDeepDiveSolvers,
-  // ...operatorsExpressionsSolvers,
+  ...operatorsExpressionsSolvers,
   ...functionsScopeSolvers,
   ...arraysStringsSolvers,
   ...objectsPrototypesSolvers,
@@ -130,7 +130,7 @@ export const staticExplanations: Record<string, string> = {
   // export allExplanations--> Fundamentals(12)
   ...beginnerBasicsExplanations,
   // ...variablesConstantsDeepDiveExplanations,
-  // ...operatorsExpressionsExplanations,
+  ...operatorsExpressionsExplanations,
   ...functionsScopeExplanations,
   ...arraysStringsExplanations,
   ...objectsPrototypesExplanations,
