@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <div className="w-full max-w-full">
           <h2 className="text-2xl font-bold tracking-tight">JS Mastery Hub</h2>
           <p className="mt-2 text-sm opacity-80">
-            Master modern JavaScript through 1400+ carefully crafted problems,
+            Master modern JavaScript through 2825+ carefully crafted problems,
             detailed explanations, and interactive solutions.
           </p>
           <form className="mt-5 w-full max-w-full">

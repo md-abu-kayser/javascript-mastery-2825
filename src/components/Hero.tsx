@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           </h1>
           <p className="mb-5 text-lg md:text-xl">
             From fundamental concepts to expert-level algorithms, conquer our
-            library of 1400+ interactive challenges. Sharpen your skills with
+            library of 2825+ interactive challenges. Sharpen your skills with
             our scientific calculator and get instant, in-depth explanations
             from our Gemini-powered AI assistant.
           </p>
