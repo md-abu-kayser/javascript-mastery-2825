@@ -123,8 +123,8 @@ This repository serves both as an educational tool for learners and as a demonst
 
 ```bash
 # Clone repository
-git clone https://github.com/<your‑username>/javascript-mastery-2825.git
-cd javascript-mastery-2825
+git clone https://github.com/<md-abu-kayser>/advanced-js-problem-solver.git
+cd advanced-js-problem-solver
 
 # Install dependencies
 npm install
@@ -231,7 +231,7 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## 📞 Contact & Support
 
-For questions or collaboration requests, open an issue or reach out via GitHub: [your‑username](https://github.com/your‑username).
+For questions or collaboration requests, open an issue or reach out via GitHub: [your‑username](https://github.com/md-abu-kayser).
 
 ---
 
@@ -245,7 +245,7 @@ For questions or collaboration requests, open an issue or reach out via GitHub: 
 ### Contact and Maintainer
 
 - **Name:** Md Abu Kayser
-- **Project:** _javascript-mastery-2025_
+- **Project:** _advanced-problem-solver_
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
@@ -260,3 +260,5 @@ It’s designed to be **clean, well-structured**, and **pleasant to explore** - 
 ---
 
 <p align="center">Made with ❤️ and ☕ by **<Md Abu Kayser>**</p>
+
+---
